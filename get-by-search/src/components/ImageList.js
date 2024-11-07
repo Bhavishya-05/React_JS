@@ -4,7 +4,7 @@ function ImageList({images}){
     return <ImageShow key={image.id}  image={image} />
   })
     // return <div>ImageList:{images.length}</div>
-    return <div className="d-flex flex-wrap">{renderedImages}</div>
+    return <div className="d-flex flex-wrap justify-content-center">{renderedImages}</div>
 
   }
   export default ImageList;
