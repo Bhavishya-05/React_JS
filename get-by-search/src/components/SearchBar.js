@@ -15,10 +15,11 @@ function SearchBar({ onSubmit }) {
 
   };
   return (
-    <div>
+    <div className="search-bar">
       <form onSubmit={handleFormSubmit}>
-        Confirm your search:&nbsp; 
+          {/* Confirm your search:&nbsp; */}
           {/* {term} */}
+        <label>Enter Search Term</label>
         <input value={term} onChange={handleChange} />
         {/* {term.length < 3 && 'Term must be longer'} */}
       </form>
